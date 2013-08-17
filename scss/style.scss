@@ -1,0 +1,26 @@
+body,header,section,footer,h1,p{
+	line-height: 120%;
+}
+header, footer,section{
+	padding: 10px;
+}
+header{
+		width: 100%;
+		background: #000;
+	h1{
+		color: #fff;
+	}
+}
+section{
+	h1{
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+	p{
+		margin-bottom: 20px;
+	}
+}
+footer{
+	background: #333;
+	color: #fff;
+}
