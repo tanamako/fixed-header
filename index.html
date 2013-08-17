@@ -31,6 +31,20 @@
 
 </p>
 
+		<h1>ありがちなBug</h1>
+		<p>iPhone iOS4以下ではそもそもposition:fixed;が使えません。</p>
+		<p>Android 4系ではmenuやheader等で背景に画像を使っている場合リーフィーラングリッジ式画像置換をしていないと画像が表示されないというバグがありますので、おきをつけください。</p>
+
+		<p><strong>リーフィーラングリッジ式画像置換</strong></p>
+		<blockquote>
+			selector{<br>
+				height:0;<br>
+				padding-top: selector's height;<br>
+				display:block;<br>
+				overflow: hidden;<br>
+			}<br>
+		</blockquote>
+
 		<h1>ダウンロード先</h1>
 		<p><a href="https://github.com/tanamako/fixed-header">github</a>に上げてありますのでそちらからダウンロードしてください。</p>
 	</section>
